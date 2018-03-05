@@ -1,0 +1,102 @@
+{
+  "kind" : "zerctus",
+   "charCreationTooltip" : {
+      "title" : "Zerctus",
+      "subTitle" : "Z",
+      "description" : "An adaptable species able to adapt to nearly any environment within seconds."
+  },
+
+  "nameGen" : [ "/species/zerctusnamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/zerctushurt_female.ogg", "/sfx/humanoid/zerctushurt_male.ogg" ],
+  "charGenTextLabels" : [ "Fur color", "Hair", "Shirt", "Pants", "Hair color", "Scale color", "Shirt color", "Pants color", "Zerctus", "Stance" ],
+  "skull" : "/humanoid/zerctus/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFC5AF?replace=9bd4ffFF=787878?replace=31a6ffFF=FF733D",
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/zerctusmale.png",
+      "hair" : [ ],
+      "shirt" : [ ],
+      "pants" : [ ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/zerctusfemale.png",
+      "hair" : [ ],
+      "shirt" : [ ],
+      "pants" : [ ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+
+  "bodyColor" : [
+//{ "969696" : "xxxxxx", "787878" : "xxxxxx", "646464" : "xxxxxx", "464646" : "xxxxxx" }, // Template
+  { "969696" : "F1F2F2", "787878" : "D3D4D4", "646464" : "AEAFAF", "464646" : "8A8B8B" }, //Snow
+  { "969696" : "A7A8A8", "787878" : "8D8E8E", "646464" : "6E6F6F", "464646" : "495050" }, //Ash
+  { "969696" : "5B5C5C", "787878" : "4D4E4E", "646464" : "3C3D3D", "464646" : "2B2C2C" }, //Pumice
+  { "969696" : "2E2F2F", "787878" : "272828", "646464" : "1E1F1F", "464646" : "151616" }, //Obsidian
+  { "969696" : "DAF1FF", "787878" : "BFCEE9", "646464" : "A1A7BB", "464646" : "838595" }, //Ice
+  { "969696" : "94A7BD", "787878" : "7C89A0", "646464" : "535869", "464646" : "494B59" }, //Slate
+  { "969696" : "435365", "787878" : "384356", "646464" : "30333E", "464646" : "23252D" }, //Stone
+  { "969696" : "FCF4D1", "787878" : "EBDEB8", "646464" : "BBB89D", "464646" : "95957F" }, //Dust
+  { "969696" : "C9B086", "787878" : "AB9D71", "646464" : "817C5D", "464646" : "5B5B44" }, //Sand
+  { "969696" : "87765A", "787878" : "72694C", "646464" : "56533E", "464646" : "3D3D2D" } //Dirt
+  ],
+
+  "undyColor" : [
+//{ "EF3B3B" : "xxxxxx", "D92222" : "xxxxxx", "AF1C1C" : "xxxxxx", "840000" : "xxxxxx" }, //Template
+  { "EF3B3B" : "F92F00", "D92222" : "D51D23", "AF1C1C" : "8D1424", "840000" : "421C29" }, //Blood
+  { "EF3B3B" : "F9A701", "D92222" : "D57B1B", "AF1C1C" : "8D6118", "840000" : "42281D" }, //Flame
+  { "EF3B3B" : "FFEC69", "D92222" : "D5A31A", "AF1C1C" : "8D6118", "840000" : "42331A" }, //Honey
+  { "EF3B3B" : "92F901", "D92222" : "A5D51C", "AF1C1C" : "738D13", "840000" : "40421B" }, //Acid
+  { "EF3B3B" : "67FFA0", "D92222" : "1AD587", "AF1C1C" : "1B8D76", "840000" : "1C3B40" }, //Aqua
+  { "EF3B3B" : "68E0FE", "D92222" : "1CB4D4", "AF1C1C" : "17688C", "840000" : "1C2F41" }, //Sky
+  { "EF3B3B" : "FF67F1", "D92222" : "D51A9D", "AF1C1C" : "8D1B51", "840000" : "421C21" }, //Candy
+  { "EF3B3B" : "C82FFE", "D92222" : "8D1DD4", "AF1C1C" : "48148E", "840000" : "2E1C41" }, //Violet
+  { "EF3B3B" : "F2F1F2", "D92222" : "D4D3D4", "AF1C1C" : "AFAEAF", "840000" : "8B8A8B" }, //Snow
+  { "EF3B3B" : "A8A7A8", "D92222" : "8E8D8E", "AF1C1C" : "6F6E6F", "840000" : "504950" }, //Ash
+  { "EF3B3B" : "5C5B5C", "D92222" : "4F4E4F", "AF1C1C" : "3D3C3D", "840000" : "2C2B2C" }, //Pumice
+  { "EF3B3B" : "2F2E2F", "D92222" : "282728", "AF1C1C" : "1F1E1F", "840000" : "161516" }, //Obsidian
+  { "EF3B3B" : "DAF1FF", "D92222" : "BFCEE9", "AF1C1C" : "A1A7BB", "840000" : "838595" }, //Ice
+  { "EF3B3B" : "94A7BD", "D92222" : "7C89A0", "AF1C1C" : "535869", "840000" : "494B59" }, //Slate
+  { "EF3B3B" : "435365", "D92222" : "384356", "AF1C1C" : "30333E", "840000" : "23252D" }, //Stone
+  { "EF3B3B" : "FCF4D1", "D92222" : "EBDEB8", "AF1C1C" : "BBB89D", "840000" : "95957F" }, //Dust
+  { "EF3B3B" : "CAAF86", "D92222" : "AC9C71", "AF1C1C" : "827B5D", "840000" : "5C5A44" }, //Sand
+  { "EF3B3B" : "88755A", "D92222" : "73684C", "AF1C1C" : "57523E", "840000" : "3E3C2D" } //Dirt
+  ],
+
+  "hairColor" : [
+//{ "2baccb" : "xxxxxx", "189bba" : "xxxxxx", "168ba7" : "xxxxxx", "09758f" : "xxxxxx" }, //Template
+  { "2baccb" : "F2F2F2", "189bba" : "D4D4D4", "168ba7" : "AFAFAF", "09758f" : "8B8B8B" }, //Snow
+  { "2baccb" : "A8A8A8", "189bba" : "8E8E8E", "168ba7" : "6F6F6F", "09758f" : "505050" }, //Ash
+  { "2baccb" : "5C5C5C", "189bba" : "4F4F4F", "168ba7" : "3D3D3D", "09758f" : "2C2C2C" }, //Pumice
+  { "2baccb" : "2F2F2F", "189bba" : "282828", "168ba7" : "1F1F1F", "09758f" : "161616" }, //Obsidian
+  { "2baccb" : "DAF1FF", "189bba" : "BFCEE9", "168ba7" : "A1A7BB", "09758f" : "838595" }, //Ice
+  { "2baccb" : "94A7BD", "189bba" : "7C89A0", "168ba7" : "535869", "09758f" : "494B59" }, //Slate
+  { "2baccb" : "435365", "189bba" : "384356", "168ba7" : "30333E", "09758f" : "23252D" }, //Stone
+  { "2baccb" : "FCF4D1", "189bba" : "EBDEB8", "168ba7" : "BBB89D", "09758f" : "95957F" }, //Dust
+  { "2baccb" : "CAB086", "189bba" : "AC9D71", "168ba7" : "827C5D", "09758f" : "5C5B44" }, //Sand
+  { "2baccb" : "88765A", "189bba" : "73694C", "168ba7" : "57533E", "09758f" : "3E3D2D" }, //Dirt
+  { "2baccb" : "F92F01", "189bba" : "D51D24", "168ba7" : "8D1425", "09758f" : "421C28" }, //Blood
+  { "2baccb" : "F9A700", "189bba" : "D57B1C", "168ba7" : "8D6119", "09758f" : "42281C" }, //Flame
+  { "2baccb" : "FFEC68", "189bba" : "D5A31B", "168ba7" : "8D6119", "09758f" : "42331B" }, //Honey
+  { "2baccb" : "92F900", "189bba" : "A5D51D", "168ba7" : "738D14", "09758f" : "40421C" }, //Acid
+  { "2baccb" : "67FFA1", "189bba" : "1AD588", "168ba7" : "1B8D77", "09758f" : "1C3B41" }, //Aqua
+  { "2baccb" : "68E0FF", "189bba" : "1CB4D5", "168ba7" : "17688D", "09758f" : "1C2F42" }, //Sky
+  { "2baccb" : "FF67F2", "189bba" : "D51A9E", "168ba7" : "8D1B52", "09758f" : "421C20" }, //Candy
+  { "2baccb" : "C82FFF", "189bba" : "8D1DD5", "168ba7" : "48148D", "09758f" : "2E1C42" } //Violet
+  ]
+}

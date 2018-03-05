@@ -1,0 +1,12 @@
+[
+  {
+  "op" : "add",
+  "path" : "/species/-",
+  "value" : "zerctus"
+  },
+  {
+  "op" : "add",
+  "path" : "/defaultCodexes/zerctus",
+  "value": ["protectorate1", "protectorate2"]
+  }
+]

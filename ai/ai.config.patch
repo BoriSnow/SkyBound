@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/species/zerctus",
+    "value": {
+      "aiFrames": "zerctusai.png",
+      "portraitFrames": "portraits/zerctusportrait.png",
+      "staticFrames": "staticzerctus.png"
+    }
+  }
+]

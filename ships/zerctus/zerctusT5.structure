@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 6
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "zerctusT5.png",
+      "position" : [19, 33],
+      "fullbright" : true
+    },
+    {
+      "image" : "zerctusT5lit.png",
+      "position" : [19, 33]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "zerctusT5blocks.png"
+}
